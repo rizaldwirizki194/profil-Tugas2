@@ -1,0 +1,10 @@
+html {
+    background: url(img/images\ \(15\).jpeg) no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+}
+.horizontal_center {
+    border-top: 6px solid black;
+    height: 2px;
+    width: 100%;
+}
