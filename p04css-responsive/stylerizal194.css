@@ -1,0 +1,20 @@
+.bg-img {
+  background-image: url(img/co.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.b-blur {
+  backdrop-filter: blur(20px);
+  flex-direction: column;
+  color: aqua;
+  border: 1px solid black;
+  width: 97%;
+  align-items: center;
+}
+.horizontal_center {
+  border-top: 6px solid black;
+  height: 1px;
+  width: 100%;
+}
