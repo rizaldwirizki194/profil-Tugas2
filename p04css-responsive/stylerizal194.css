@@ -1,20 +1,63 @@
 .bg-img {
-  background-image: url(img/co.jpeg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
+    background-image: url(img/co.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .h2 {
+    font-size: 8vw;
+  }
+  
+  fieldset legend{
+    background: black;
+    padding: 3px;
+    font-weight: bold;
+  
+  }
+  b{
+    color: white;
+  }
 
-.b-blur {
-  backdrop-filter: blur(20px);
-  flex-direction: column;
-  color: aqua;
-  border: 1px solid black;
-  width: 97%;
-  align-items: center;
+  .b-blur {
+    backdrop-filter: blur(20px);
+    flex-direction: column;
+    color: aqua;
+    border: 1px solid black;
+    align-items: center;
+
+  }
+  .horizontal_center {
+    border-top: 6px solid black;
+    height: 1px;
+    width: 100%;
+  }
+  @media only screen and (max-witdh:400px) {
+    body{
+        width: 0;
+        padding: 0;
+    }
+    .bg-img{
+        max-width: 120%;
+        height: auto;
+    }
+    .b-blur{
+        width: 320px;
+    }
+    .as-sk{
+      font-size: 0.9rem;
+    }
+    
 }
-.horizontal_center {
-  border-top: 6px solid black;
-  height: 1px;
-  width: 100%;
+@media only screen and (max-witdh:600px) {
+    body{
+        width: 0;
+        padding: 0;
+    }
+    .bg-img{
+        max-width: 120%;
+        height: auto;
+    }
+    .b.b-blur{
+      width: 640px ; 
+    }
 }
