@@ -1,0 +1,50 @@
+body {
+  background-image: url(../img/im.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat center;
+}
+h1 {
+  color: aqua;
+}
+h1:hover {
+  color: green;
+}
+.kolom6 {
+  color: white;
+}
+table {
+  border-collapse: collapse;
+  font-size: 11pt;
+  border: 2px solid rgba(5, 5, 5, 0.925);
+}
+td {
+  padding: 2px;
+  height: 24px;
+}
+th {
+  background-color: rgb(16, 174, 248);
+  color: white;
+  height: 27px;
+}
+
+tr:nth-child(odd) {
+  background-color: lavender;
+}
+
+.hapus {
+  background-color: red;
+  color: white;
+  background-position: center;
+  padding: 5px;
+  padding-top: 5px;
+  width: 60px;
+}
+
+.ubah {
+  background-color: rgb(9, 200, 95);
+  color: white;
+  width: 60px;
+  height: 17px;
+  padding-left: 10px;
+  padding-top: 5px;
+}
