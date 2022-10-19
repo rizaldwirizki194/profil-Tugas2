@@ -1,0 +1,340 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  width: 100%;
+  background: url(img/fi.jpeg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  background: black;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0, 2);
+}
+nav .navbar {
+  height: 100%;
+  max-width: 1250px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 35px;
+}
+nav .navbar .na-menu {
+  height: 100%;
+  line-height: 70px;
+  flex-wrap: wrap;
+}
+nav .navbar .na-menu .menu {
+  display: flex;
+}
+nav .navbar .na-menu .menu li {
+  position: relative;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0 14px;
+}
+nav .navbar .na-menu .menu li a {
+  height: 100%;
+  color: white;
+  text-decoration: none;
+  white-space: nowrap;
+}
+nav .navbar .na-menu .menu li .down {
+  height: 100%;
+  width: 22px;
+  text-align: center;
+  color: white;
+  line-height: 70px;
+  transition: all 0.3s ease;
+}
+.navbar .na-menu .menu li:hover .down-pweb {
+  transform: rotate(180deg);
+}
+.navbar .na-menu .menu .down-menu {
+  position: absolute;
+  top: 70px;
+  left: 0;
+  background: black;
+  line-height: 40px;
+  border-radius: 0 0 8px 8px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0, 2);
+  display: none;
+}
+.navbar .na-menu .menu .down-menu li {
+  padding: 0 22px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.navbar .na-menu .menu .down-menu li a {
+  font-size: 15px;
+  font: 500;
+}
+.navbar .na-menu .menu li:hover .down-menu {
+  display: block;
+}
+
+nav .navbar .logo a {
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+nav .navbar .logo span {
+  color: aqua;
+  text-decoration: none;
+}
+
+.b-blr {
+  width: 100%;
+  max-width: 440px;
+  color: #fff;
+  text-align: center;
+  padding: 50px 35px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 2255, 0, 2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+}
+.profil {
+  width: 4cm;
+  border-radius: 50%;
+  padding: 5px;
+  background: white;
+  transition: 0.2s;
+  margin: 20px;
+  opacity: 75%;
+  cursor: pointer;
+}
+.profil:hover {
+  transform: scale();
+  opacity: 100%;
+  box-shadow: 1px 1px 4px;
+}
+.home-profil {
+  text-align: center;
+}
+.sosmed {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  color: #fff;
+  text-align: center;
+  border-radius: 50%;
+  background-color: 2px rgb(247, 90, 90);
+  line-height: 20px;
+}
+.nam-tugas {
+  text-align: center;
+  background: var(--gradient);
+  color: white;
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-size: 50px;
+  text-transform: uppercase;
+  padding: 1px;
+}
+.Pemograman .box-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.Pemograman .box-container .P03 {
+  background: rgb(77, 124, 129);
+  margin: 15px;
+  padding: 5px;
+  text-align: center;
+  position: relative;
+  border: 0.1px solid rgba(0, 0, 0, 0.2);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  flex: 1 1 20px;
+}
+.Pemograman .box-container .P03 .gambar img {
+  width: 200;
+  height: 100;
+}
+.Pemograman .box-container .P03 h3 a {
+  font-size: 15px;
+  color: aqua;
+  text-decoration: none;
+}
+
+.P03h {
+  margin: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  max-width: 400px;
+  border-radius: 8px;
+  background-color: rgb(176, 171, 171);
+}
+
+.Pemograman .box-container .P03 img:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+}
+
+.t-pweb {
+  width: 200px;
+  height: auto;
+  max-width: 600px;
+  transition: 0.3s;
+}
+
+.t-pweb:hover {
+  transform: scale(1.1);
+}
+
+.text {
+  padding: 15px;
+  text-align: center;
+}
+.navbar .fa-bars,
+.navbar .na-menu .logo-menu .name-mn,
+.navbar .na-menu .logo-menu .fa-times {
+  display: none;
+}
+.b-blrr {
+  width: 100%;
+  max-width: 440px;
+  color: #fff;
+  text-align: center;
+  padding: 50px 35px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  background: rgba(255, 255, 2255, 0, 2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+}
+
+.b-blrr .tentang .t-saya span {
+  color: aqua;
+}
+@media (max-width: 900px) {
+  nav {
+    display: block;
+    height: 50px;
+  }
+  nav .navbar {
+    max-width: 100%;
+    padding: 0 25px;
+  }
+  nav .navbar .logo a {
+    line-height: 50px;
+    font-size: 24px;
+  }
+  nav .navbar .na-menu .menu li {
+    padding: 0 14px;
+  }
+  nav .navbar .na-menu .menu li .down,
+  nav .navbar .na-menu .menu li a {
+    line-height: 50px;
+    font-size: 15px;
+  }
+  .navbar .na-menu .menu .down-menu {
+    top: 50px;
+    line-height: 20px;
+  }
+  .navbar .na-menu .menu .down-menu li a {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 709px) {
+  nav .navbar .na-menu {
+    display: block;
+    position: fixed;
+    background: black;
+    top: 0;
+    left: -100%;
+    max-width: 270px;
+    width: 100%;
+    padding: 20px;
+    line-height: 40px;
+    transition: all 0.5s ease;
+  }
+  nav .navbar .na-menu .logo-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .navbar .fa-bars,
+  .navbar .na-menu .logo-menu .name-mn,
+  .navbar .na-menu .logo-menu .fa-times {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 500;
+  }
+  .navbar .fa-bars,
+  .navbar .na-menu .logo-menu .name-mn,
+  .navbar .na-menu .logo-menu .fa-times {
+    display: block;
+  }
+  nav .navbar .na-menu .menu {
+    display: block;
+    margin-top: 20px;
+  }
+  .navbar .na-menu .menu .down-menu {
+    background: rgba(33, 32, 32, 0.789);
+  }
+}
+
+@media (max-width: 450px) {
+  .Pemograman .box-container {
+    display: block;
+  }
+  .Pemograman .box-container .P03 {
+    margin: 20px;
+  }
+  .Pemograman .box-container {
+    display: block;
+    flex-wrap: wrap;
+  }
+  .nam-tugas {
+    display: block;
+    text-align: center;
+    background-clip: text;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 60px;
+    margin: 6px;
+  }
+  .b-blr {
+    display: block;
+    width: 100%;
+    max-width: 60px;
+    padding: 20px 60px;
+  }
+
+  .b-blr h2 {
+    font-size: 18px;
+  }
+  .b-blrr {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    padding: 50px 60px;
+  }
+  .b-blrr .tentang .t-saya {
+    font-size: 20px;
+    padding: 10px;
+  }
+  .b-blrr .tentang .ktr {
+    font-size: 15px;
+  }
+}
